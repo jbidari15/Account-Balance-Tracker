@@ -1,0 +1,46 @@
+.App{
+
+}
+
+.form{
+    display:flex;
+    margin-top:20px;
+    justify-content: center;
+}
+.form input{
+    margin-right: 20px;
+}
+.form select{
+margin-right:20px;
+}
+
+.table{
+    width:100%;
+    margin-top: 50px;
+    display: grid;
+    grid-gap: 30px;
+}
+.thead{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+  
+}
+.thead div{
+    text-align: center;
+}
+.tbody{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 70px;
+    
+}
+.Income{
+    display:grid;
+   grid-template-columns: repeat(4,1fr);
+  
+}
+.Expenses{
+    display: grid;
+     grid-template-columns: repeat(4,1fr);  
+}
