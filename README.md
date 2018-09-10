@@ -17,7 +17,7 @@ Please make sure Node has been installed on the machine first!
 
 ### Installing
 ```
-> git clone https://github.com/jbidari15/My-Diary
+> git clone https://github.com/jbidari15/Account-Balance-Tracker.git
 > npm install
 > npm start
 
